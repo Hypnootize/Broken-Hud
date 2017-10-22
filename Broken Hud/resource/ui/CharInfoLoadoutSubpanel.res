@@ -267,7 +267,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"c-250"
+		"xpos"				"c-265"
 		"ypos"				"225"
 		"zpos"				"6"
 		"wide"				"100"
@@ -324,7 +324,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-117"
+		"xpos"				"c-145"
 		"ypos"				"225"
 		"zpos"				"6"
 		"wide"				"100"
@@ -381,7 +381,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowArmoryButton"
-		"xpos"				"c16"
+		"xpos"				"c-40"
 		"ypos"				"225"
 		"zpos"				"6"
 		"wide"				"100"
@@ -437,7 +437,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"c150"
+		"xpos"				"c65"
 		"ypos"				"225"
 		"zpos"				"6"
 		"wide"				"100"
@@ -488,7 +488,67 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-        
+	}
+	
+	"ShowPaintkitsButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowPaintkitsButton"
+		"xpos"				"c180"
+		"ypos"				"225"
+		"zpos"				"6"
+		"wide"				"100"
+		"tall"				"50"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"Paints"
+		"textAlignment"		"south"
+		"Command"			"paintkit_preview"
+		"Default"			"0"
+		"font"				"medium16"
+		"scaleImage"		"1"
+		"activeimage"		""
+		"inactiveimage"		""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"		"0 0 0 0"
+		"unselectedBgColor_override"	"0 0 0 0"
+		"selectedBgColor_override"	"0 0 0 0"
+		"depressedBgColor_override"		"0 0 0 0"
+		"suppressedbgcolor_override"	"0 0 0 0"	
+		"armedbgcolor_override"	"0 0 0 0"	
+		"defaultFgColor_override"		"qtcwhite"
+		"unselectedFgColor_override"	"qtcwhite"
+		"selectedFgColor_override"	"qtcwhite"
+		"depressedFgColor_override"		"qtcwhite"
+		"suppressedFgcolor_override"	"qtcwhite"
+		"armedFgcolor_override"	"qtcwhite"
+	}	
+	"ShowPaintkitsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ShowPaintkitsLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#PaintkitTitle"
+		"textAlignment"	"north"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"7"
+		"wide"			"0"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+
+		"pin_to_sibling"               "ShowPaintkitsButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6" 
 	}
 	
 	"ClassLabel"
@@ -1896,5 +1956,18 @@
 		"tall"				"400"
 		"zpos"				"500"
 		"visible"			"1"
+	}
+	
+	"InspectionPanel"
+	{
+		"fieldName"		"InspectionPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"f0"
+		"tall"			"f100"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"30 25 25 245"
 	}
 }
