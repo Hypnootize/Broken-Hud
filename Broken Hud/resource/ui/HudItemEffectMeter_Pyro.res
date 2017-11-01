@@ -1,11 +1,13 @@
-"Resource/UI/HudItemEffectMeter_Sapper.res"
+#base "HudItemEffectMeter.res"
+
+"Resource/UI/HudItemEffectMeter_Pyro.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-86"
+		"xpos"			"c-83"
 		"ypos"			"r147"
 		"wide"			"172"
 		"tall"			"100"

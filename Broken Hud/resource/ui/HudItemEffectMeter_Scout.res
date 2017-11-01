@@ -41,7 +41,7 @@
 		"zpos"			"3"
 		"wide"			"120"
 		"tall"			"48"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"labelText"			"#TF_Ball"
 		"fgcolor_override" "blank"
