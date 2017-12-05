@@ -1321,8 +1321,6 @@ Scheme
         // specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
         CustomFontFiles
         {
-                "1"             "resource/HALFLIFE2.ttf"
-                "2"             "resource/HL2EP2.ttf"  
-                "3"             "resource/marlett.ttf"
+                "1"	"resource/marlett.ttf"
         }
 }
