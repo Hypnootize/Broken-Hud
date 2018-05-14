@@ -674,31 +674,7 @@ Scheme
                         }
                 }
  
-                TitleFont
-                {
-                        "1"
-                        {
-                                "name"          "HalfLife2"
-                                "tall"          "72"
-                                "weight"        "400"
-                                "antialias"     "1"
-                                "custom"        "1"
-                        }
-                }
- 
-                TitleFont2
-                {
-                        "1"
-                        {
-                                "name"          "HalfLife2"
-                                "tall"          "120"
-                                "weight"        "400"
-                                "antialias"     "1"
-                                "custom"        "1"
-                        }
-                }
- 
-                AppchooserGameTitleFont [$X360]
+				AppchooserGameTitleFont [$X360]
                 {
                         "1"
                         {

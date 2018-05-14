@@ -282,7 +282,8 @@
 		
 		if_match
 		{
-			"xpos"				"c-50"
+			"xpos"				"c-48"
+			"ypos"				"-3"
 			"zpos"				"5"
 		}
 		
@@ -301,11 +302,6 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"ypos"			"2"
-			}
 		}
 		
 		"TimePanelValue2"
