@@ -8135,5 +8135,10 @@ Scheme
 			"font" "resource/fonts/crosshair.ttf"
 			"name" "yahudX"
 		}
+		"25"
+		{
+			"font" "resource/fonts/heydings_icons.ttf"
+			"name" "heydings icons"
+		}
 	}
 }

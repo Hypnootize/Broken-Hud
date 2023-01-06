@@ -72,8 +72,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"MainBGOverlayBorder"
@@ -96,8 +95,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"TransBG"
